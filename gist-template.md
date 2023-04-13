@@ -1,12 +1,15 @@
-# Title (replace with your title)
+# Computer Science Regex Tutorial
 
-Introductory paragraph (replace this with your text)
+Regular Expression or regex for short, are a series of special characters that define a search patter. In essense, regex can be used to find and/or replace a set of characters within a string. Since regex are a series of special characters, it can be universal and used within all programming languages. 
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+The regex I will be providing a tutorial for is:
+<br />
+![Screenshot of Email Regex](./assets/images/email-regex1.png)
+<br />
 
-
+This regex matches email addresses that is broken down into three groups. The first group, may contain only lowercase letters, digits, underscores, dots, and hyphens before the @ symbol. The second group may contain only lowercase letters, digits, dots, and hyphens after the @ symbol. In the last group, after the dot (.) symbol, it may contain any lowercase letters and/or dots with further limiting the possible value of characters to a minimum and maximum of 2 and 6, respectively. 
 
 ## Table of Contents
 
